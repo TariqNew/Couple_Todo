@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard | Couple To-Do</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1>💕 Couple To-Do</h1>
+    <button class="logout-btn">Logout</button>
+  </nav>
+
+  <main class="dashboard">
+    <section class="welcome">
+      <h2>Welcome back, lovebirds! 💑</h2>
+      <p>Let’s plan your day together. Add your shared tasks below!</p>
+    </section>
+
+    <section class="todo-section">
+      <form class="todo-form">
+        <input type="text" placeholder="What do you want to do together?" required />
+        <button type="submit">Add Task</button>
+      </form>
+
+      <ul class="todo-list">
+        <!-- Example Task -->
+        <li>
+          <span>Buy groceries for dinner</span>
+          <button class="done-btn">✓</button>
+        </li>
+        <!-- More tasks will be added dynamically -->
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
